@@ -1,0 +1,198 @@
+* {
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 209, 209);
+}
+
+header {
+    background-color: rgb(2, 2, 33);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 50px;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+
+.logo {
+    padding: 5px;
+    width: fit-content;
+}
+
+.logo:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logo a img {
+    width: 6vw;
+    outline: 2px solid black;
+    border-radius: 1px;
+}
+
+.gps {
+    width: fit-content;
+    background-color: rgb(2, 2, 33);
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.gps:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+form {
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+}
+
+select {
+    height: 35px;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+    margin-left: 20px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 30vw;
+    height: 31px;
+    border-radius: 0px 0px 0px 0px;
+    border-width: 1px 1px 1px 1px;
+    position: relative;
+    background-color: white;
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 1vw;
+    padding-right: 0px;
+
+}
+
+.search:hover {
+    background-color: aliceblue;
+}
+
+.search a img {
+    position: absolute;
+    top: 13px;
+    width: 2vw;
+}
+
+.lang {
+    border-radius: 10px;
+    width: 60px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.cart {
+    width: fit-content;
+    background-color: rgb(2, 2, 33);
+    padding: 5px;
+    font-size: larger;
+}
+
+.com {
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.com:hover {
+    border: 1px solid white;
+}
+
+.nav2 {
+    background-color: rgb(16, 16, 48);
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3%;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px 0px 5px 0px;
+    padding: 2px;
+}
+
+li:hover {
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px 0px 5px 0px;
+}
+
+li a:hover {
+    margin: 5px 0px 5px 0px;
+}
+
+.container {
+    position: relative;
+}
+
+.boxes {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    
+}
+
+.box1 {
+    position: relative;
+    top: 50%;
+    border: 2px solid;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.link {
+    color: BLUE;
+}
+
+.images  img {
+    width: 150px;
+    margin: 10px;
+}
+
+.box1 a button {
+    background-color: yellow;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.box2 {
+    font-size: smaller;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+
+}
